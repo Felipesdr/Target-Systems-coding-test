@@ -73,6 +73,20 @@ public class CodingTest {
         System.out.println("Agora, voltando à primeira tentativa, caso a luz estivesse acesa, eu apertaria os interruptores A e C e iria na sala 2" +
                 ". Caso a luz estivesse acesa, Saberiamos que a = 2, b = 3 e c = 1, e caso estivesse apagada, a = 1, c = 2 e b = 3.");
 
+    }
 
+    public String exercise5(String string){
+
+        StringBuilder reversedString  = new StringBuilder();
+        int i = string.length() -1;
+
+        while(i >= 0 ){
+            char temp;
+            temp = string.charAt(i);
+            reversedString.append(temp);
+            i--;
+        }
+
+        return reversedString.toString();
     }
 }
