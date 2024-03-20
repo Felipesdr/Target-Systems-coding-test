@@ -1,6 +1,6 @@
 Teste de lógica e código do processo seletivo da empresa Target Systems. Para ver as respostas das questões, basta rodar a classe main da aplicação.
 
-As respostas das questões discursivas também serão exibidas nesse arquivo, logo abaixo:
+As respostas das questões discursivas também serão exibidas logo abaixo:
 
 Exercício 1: 
 O valor final de Soma será igual 91.
@@ -20,5 +20,5 @@ b = 1 e c = 3
 Agora, voltando à primeira tentativa, caso a luz estivesse acesa, eu apertaria os interruptores A e C e iria na sala 2. 
 Caso a luz estivesse acesa, Saberiamos que a = 2, b = 3 e c = 1, e caso estivesse apagada, a = 1, c = 2 e b = 3.
 
-Caso queiram ver outros projetos que realizei, segue o link do meu portifólio abaixo:
+Caso queiram ver outros projetos que realizei, segue o link do meu portifólio:
 https://personal-portfolio-vert-rho.vercel.app/
