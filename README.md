@@ -6,10 +6,10 @@ Exercício 1:
 O valor final de Soma será igual 91.
 
 Exercício 3: 
-1, 3, 5, 7, 9
-2, 4, 8, 16, 32, 64, 128"
-0, 1, 4, 9, 16, 25, 36, 49
-1, 1, 2, 3, 5, 8, 13
+1, 3, 5, 7, 9.
+2, 4, 8, 16, 32, 64, 128.
+0, 1, 4, 9, 16, 25, 36, 49.
+1, 1, 2, 3, 5, 8, 13.
 
 Exercício 4:
 Vamos chamar as sala de 1, 2 e 3 e os interruptores de A,B e C;
