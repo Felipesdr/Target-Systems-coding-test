@@ -19,11 +19,15 @@ public class CodingTest {
         return soma;
     }
 
-    public void exercise2 (int n) {
+    public boolean exercise2 (int n) {
+
+        if(n < 0){
+            throw new IllegalArgumentException("Negative numbers can not be part of fibbonacci sequence");
+        }
 
         if(n == 0 || n == 1){
             System.out.println("This number is in fibbonacci sequence.");
-            return;
+            return true;
         }
 
         List<Integer> fibbonaci = new ArrayList<>();
@@ -39,19 +43,18 @@ public class CodingTest {
 
             if(f == n){
                 System.out.println("This number is in fibbonacci sequence.");
-                return;
+                return true;
             }
 
             if (f >  n){
                 System.out.println("This number it's not in fibbonacci sequence");
-                return;
+                return false;
             }
 
             fibbonaci.add(f);
             i++;
         }
-
-        fibbonaci.forEach(System.out::println);
+        return true;
     }
 
     public void exercise3(){
